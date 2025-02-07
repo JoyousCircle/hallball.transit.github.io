@@ -1,0 +1,50 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.custom-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+    background-color: #45a049;
+}
+
+.custom-link {
+    color: #2196F3; /* Blue */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.custom-link:hover {
+    text-decoration: underline;
+}
+
+.custom-paragraph {
+    font-size: 18px;
+    line-height: 1.5;
+}
